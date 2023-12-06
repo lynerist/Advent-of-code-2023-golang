@@ -28,11 +28,9 @@ func main(){
 				}
 			}
 		}
-		fmt.Println(extracted)
 		if (extracted["red"]<=red && extracted["green"]<=green && extracted["blue"]<=blue){
 			sum += i
 		}
 	}
-
 	fmt.Println(sum)
 }
